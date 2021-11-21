@@ -35,18 +35,14 @@
 <!-- end custom head snippets -->
 
   </head>
-  <body id="body" style="">
+  <body id="by" style="">
     <script>
-      var d=new Date();
-      var t=d.GetHours();
-      if(t>17 || t==0)
-      {
-        document.getElementById("body").style = "background:black";
-      }
-      else
-      {
-        document.getElementById("body").style = "background:white";
-      }
+        var a=new Date();
+        var b=a.getHours();
+        if(b>18)
+        {
+        document.getElementById("by").style = 'background:black';
+        }
     </script>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
