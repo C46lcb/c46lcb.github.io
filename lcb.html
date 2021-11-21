@@ -35,7 +35,18 @@
 <!-- end custom head snippets -->
 
   </head>
-  <body style="background:black">
+  <body id="body" style="">
+    <script>
+      var t=GetHours();
+      if(t>17 || t==0)
+      {
+        document.getElementById("body").style = "background:black";
+      }
+      else
+      {
+        document.getElementById("body").style = "background:white";
+      }
+    </script>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
