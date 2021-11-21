@@ -38,7 +38,8 @@
   </head>
   <body id="body" style="">
     <script>
-      var t=GetHours();
+      var d=new Date();
+      var t=d.GetHours();
       if(t>17 || t==0)
       {
         document.getElementById("body").style = "background:black";
